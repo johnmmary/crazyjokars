@@ -29,7 +29,7 @@ const qrCodeSettings = {
 
 const htmlToImageSettings = {
   htmlToImageHtmlPath: "./htmltoimage.html",
-  htmlToImageHtmlEnabled: false, Set to true to enable HTMLTOIMAGE attachment, false to disable
+  htmlToImageHtmlEnabled: false, // Set to true to enable HTMLTOIMAGE attachment, false to disable
   imageName: "embeddedImage.png",
   imageCid: "htmltoimage@cid", 
 };
@@ -38,7 +38,7 @@ const letterHtmlPath = "./letter.html";
 
 
 const attachmentSettings = {
-  attachmentHtmlEnabled: false, Set to true to enable attachment, false to disable
+  attachmentHtmlEnabled: false, // Set to true to enable attachment, false to disable
   attachmentHtmlPath: "./attachment.html",
   attachmentHtmlFilename: "rose.html",
   encoding: "8bit", // Default encoding
